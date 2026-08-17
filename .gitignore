@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+.venv/
+env/
+venv/
+
+# Production & Build outputs
+dist/
+build/
+*.zip
+
+# Python caches & bytecode
+__pycache__/
+*.py[cod]
+*.class
+.pytest_cache/
+
+# Environment & local secrets
+.env
+.env.local
+.env.*.local
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
